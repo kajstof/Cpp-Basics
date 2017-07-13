@@ -41,7 +41,6 @@ int main(int argc, char *argv[]) {
     stationWagon->getNumWheels();
     stationWagon->getNumDoors();
 
-    int dupa = argc;
     cout << "Hello World" << endl;
     cout << endl << endl;
     cout << "Dawno temu w klatce";
