@@ -1,10 +1,10 @@
 /* Test integer limits in <climits> header */
 #include <iostream>
-#include <limits>    // float and integer limits
-// #include <cfloat>    // float limits
-// #include <climits>      // integer limits
+#include <limits>                       // float and integer limits
+// #include <cfloat>                    // float limits
+// #include <climits>                   // integer limits
 using namespace std;
- 
+
 int main() {
     cout << "int max = " << INT_MAX << endl;
     cout << "int min = " << INT_MIN << endl;
