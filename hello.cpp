@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
-#include <stdlib>
+#include <cstdlib>
 
 using namespace std;
 
@@ -44,11 +44,10 @@ int main(int argc, char *argv[]) {
     cout << "Hello World" << endl;
     cout << endl << endl;
     cout << "Dawno temu w klatce";
-    cin.getline();
+    cin.get();
 
     cout << "ZAŻÓŁĆ GĘŚLĄ JAŹŃ" << endl;
     cout << "zażółć gęślą jaźń" << endl;
-    std::cin >> iglo;
 
     return 0;
 }
