@@ -1,18 +1,18 @@
 language: c++
 script:
-  - g++ -std=c++11 c01.cpp -o c01.out
-  - g++ -std=c++11 c02.cpp -o c02.out
-  - g++ -std=c++11 c03.cpp -o c03.out
-  - g++ -std=c++11 c04.cpp -o c04.out
-  - g++ -std=c++11 c05.cpp -o c05.out
-  - g++ -std=c++11 c06.cpp -o c06.out
-  - g++ -std=c++11 c07.cpp -o c07.out
-  - g++ -std=c++11 c08.cpp -o c08.out
-  - g++ -std=c++11 c09.cpp -o c09.out
-  - g++ -std=c++11 c10.cpp -o c10.out
-  - g++ -std=c++11 c11.cpp -o c11.out
-  - g++ -std=c++11 climits.cpp -o climits.out
-  - g++ -std=c++11 hello.cpp -o hello.out
-  - g++ -std=c++11 output_formatting.cpp -o output_formatting.out
-  - g++ -std=c++11 string.cpp -o string.out
-  - g++ -std=c++11 string_flush.cpp -o string_flush.out
+  - g++ -std=c++14 c01.cpp -o c01.out
+  - g++ -std=c++14 c02.cpp -o c02.out
+  - g++ -std=c++14 c03.cpp -o c03.out
+  - g++ -std=c++14 c04.cpp -o c04.out
+  - g++ -std=c++14 c05.cpp -o c05.out
+  - g++ -std=c++14 c06.cpp -o c06.out
+  - g++ -std=c++14 c07.cpp -o c07.out
+  - g++ -std=c++14 c08.cpp -o c08.out
+  - g++ -std=c++14 c09.cpp -o c09.out
+  - g++ -std=c++14 c10.cpp -o c10.out
+  - g++ -std=c++14 c11.cpp -o c11.out
+  - g++ -std=c++14 climits.cpp -o climits.out
+  - g++ -std=c++14 hello.cpp -o hello.out
+  - g++ -std=c++14 output_formatting.cpp -o output_formatting.out
+  - g++ -std=c++14 string.cpp -o string.out
+  - g++ -std=c++14 string_flush.cpp -o string_flush.out
