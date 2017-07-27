@@ -1,6 +1,6 @@
 /* Test integer limits in <climits> header */
 #include <iostream>
-#include <limits>                       // float and integer limits
+#include <climits>                      // float and integer limits
 // #include <cfloat>                    // float limits
 // #include <climits>                   // integer limits
 using namespace std;
